@@ -115,7 +115,7 @@ The REST API to the project is described below.
 
 ### Request
 
-`GET /thing/id`
+`GET /profile/transactionReference`
 
     url: https://www.swiftaccess.online/profile/<str:transactionReference>/
 
@@ -135,7 +135,7 @@ The REST API to the project is described below.
       "transactionReference": string,
       "AccountReference": string
     }
-
+ 
 ## Get a non-existent Thing
 
 ### Request
