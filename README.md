@@ -1,15 +1,6 @@
 # SwiftAccess API DOCUMENTATION
 
-pass
-
-The entire application is contained within the `app.rb` file.
-
-`config.ru` is a minimal Rack configuration for unicorn.
-
-`run-tests.sh` runs a simplistic test and generates the API
-documentation below.
-
-
+Data, Airtime and Utility bill payment platform.
 
 # REST API
 
