@@ -137,7 +137,7 @@ The REST API to the project is described below.
         "required": true,
     },
     
-## Password Change
+## Password Reset
 
 ### Request
 
