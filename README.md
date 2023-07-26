@@ -215,9 +215,9 @@ The REST API to the project is described below.
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "500.0MB",
-        "plan_amount": "123"
+        "plan_amount": "130"
     },
-    {
+    {   
         "id": 7,
         "dataplan_id": "7",
         "network": 1,
@@ -225,7 +225,7 @@ The REST API to the project is described below.
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "1.0GB",
-        "plan_amount": "223"
+        "plan_amount": "229"
     },
     {
         "id": 8,
@@ -235,7 +235,7 @@ The REST API to the project is described below.
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "2.0GB",
-        "plan_amount": "446"
+        "plan_amount": "460"
     },
     {
         "id": 44,
@@ -244,8 +244,8 @@ The REST API to the project is described below.
         "plan_type": "SME",
         "plan_network": "MTN",
         "month_validate": "Monthly",
-        "plan": "3.0GB",
-        "plan_amount": "669"
+        "plan": "3.0GB",    
+        "plan_amount": "689"
     },
     {
         "id": 11,
@@ -255,38 +255,9 @@ The REST API to the project is described below.
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "5.0GB",
-        "plan_amount": "1115"
+        "plan_amount": "1150"
     },
-    {
-        "id": 224,
-        "dataplan_id": "224",
-        "network": 1,
-        "plan_type": "SME",
-        "plan_network": "MTN",
-        "month_validate": "Monthly",
-        "plan": "10.0GB",
-        "plan_amount": "2230"
-    },
-    {
-        "id": 222,
-        "dataplan_id": "222",
-        "network": 1,
-        "plan_type": "GIFTING",
-        "plan_network": "MTN",
-        "month_validate": "Monthly",
-        "plan": "15.0GB",
-        "plan_amount": "3570"
-    },
-    {
-        "id": 223,
-        "dataplan_id": "223",
-        "network": 1,
-        "plan_type": "GIFTING",
-        "plan_network": "MTN",
-        "month_validate": "Monthly",
-        "plan": "20.0GB",
-        "plan_amount": "4760"
-    }
+ 
     
 ## Airtime Topup
 
