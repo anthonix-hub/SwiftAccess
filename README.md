@@ -223,10 +223,12 @@ The REST API to the project is described below.
     "network_id": {
         "type": "string",
         "required": true,
+        options{
         MTN ~ network_id = 1,
         GLO ~ network_id = 2,
         9MOBILE ~ network_id = 3,
         AIRTEL ~ network_id = 4
+        }
     },
     "amount": {
         "type": "string",
