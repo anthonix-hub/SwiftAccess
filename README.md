@@ -242,6 +242,28 @@ The REST API to the project is described below.
         "plan": "5.0GB",
         "plan_amount": "1150"
     },
+    {
+        "plan_id": "224",
+        "network_id": 1,
+        "plan_network": "MTN",
+        "plan": "10.0GB",
+        "plan_amount": "2290"
+    },
+     {
+        "plan_id": "222",
+        "network_id": 1,
+        "plan_network": "MTN",
+        "plan": "15.0GB",
+        "plan_amount": "3865"
+    },
+     {
+        "plan_id": "223",
+        "network_id": 1,
+        "plan_network": "MTN",
+        "plan": "20.0GB",
+        "plan_amount": "3865"
+    },
+    
 
 ### GLO
 
