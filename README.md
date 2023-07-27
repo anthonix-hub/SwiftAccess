@@ -211,7 +211,6 @@ The REST API to the project is described below.
         "plan_id": "213",
         "network_id": 1,
         "plan_network": "MTN",
-        "month_validate": "Monthly",
         "plan": "500.0MB",
         "plan_amount": "130"
     },
@@ -219,7 +218,6 @@ The REST API to the project is described below.
         "plan_id": "7",
         "network_id": 1,
         "plan_network": "MTN",
-        "month_validate": "Monthly",
         "plan": "1.0GB",
         "plan_amount": "229"
     },
@@ -227,7 +225,6 @@ The REST API to the project is described below.
         "plan_id": "8",
         "network_id": 1,
          "plan_network": "MTN",
-        "month_validate": "Monthly",
         "plan": "2.0GB",
         "plan_amount": "460"
     },
@@ -235,7 +232,6 @@ The REST API to the project is described below.
         "plan_id": "44",
         "network_id": 1,
         "plan_network": "MTN",
-        "month_validate": "Monthly",
         "plan": "3.0GB",    
         "plan_amount": "689"
     },
@@ -243,7 +239,6 @@ The REST API to the project is described below.
         "plan_id": "11",
         "network_id": 1,
         "plan_network": "MTN",
-        "month_validate": "Monthly",
         "plan": "5.0GB",
         "plan_amount": "1150"
     },
@@ -254,7 +249,6 @@ The REST API to the project is described below.
         "plan_id": "241",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "500.0MB",
         "plan_amount": "160"
     },
@@ -262,7 +256,6 @@ The REST API to the project is described below.
         "plan_id": "236",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "1.0GB",
         "plan_amount": "260"
     },
@@ -270,7 +263,6 @@ The REST API to the project is described below.
         "plan_id": "237",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "2.0GB",
         "plan_amount": "500"
     },
@@ -278,7 +270,6 @@ The REST API to the project is described below.
         "plan_id": "238",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "3.0GB",
         "plan_amount": "770"
     },
@@ -286,7 +277,6 @@ The REST API to the project is described below.
         "plan_id": "239",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "5.0GB",
         "plan_amount": "1250"
     },
@@ -294,7 +284,6 @@ The REST API to the project is described below.
         "plan_id": "198",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Valid for 30days",
         "plan": "7.0GB",
         "plan_amount": "2295"
     },
@@ -302,7 +291,6 @@ The REST API to the project is described below.
         "plan_id": "240",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "10.0GB",
         "plan_amount": "2550"
     },
@@ -310,7 +298,6 @@ The REST API to the project is described below.
         "plan_id": "200",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "12.0GB",
         "plan_amount": "3800"
     },
@@ -318,7 +305,6 @@ The REST API to the project is described below.
         "plan_id": "201",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "16.5GB",
         "plan_amount": "5000"
     },
@@ -326,7 +312,6 @@ The REST API to the project is described below.
         "plan_id": "202",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "25.0GB",
         "plan_amount": "7500"
     },
@@ -334,7 +319,6 @@ The REST API to the project is described below.
         "plan_id": "225",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "42.0GB",
         "plan_amount": "9500"
     },
@@ -342,7 +326,6 @@ The REST API to the project is described below.
         "plan_id": "226",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "78.0GB",
         "plan_amount": "15000"
     },
@@ -350,7 +333,6 @@ The REST API to the project is described below.
         "plan_id": "227",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "100.0GB",
         "plan_amount": "17000"
     },
@@ -358,7 +340,6 @@ The REST API to the project is described below.
         "plan_id": "228",
         "network_id": 2,
         "plan_network": "GLO",
-        "month_validate": "Monthly",
         "plan": "115.0GB",
         "plan_amount": "20000"
     }
@@ -368,7 +349,6 @@ The REST API to the project is described below.
             "plan_id": "216",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "500.0MB",
             "plan_amount": "150"
         },
@@ -376,7 +356,6 @@ The REST API to the project is described below.
             "plan_id": "217",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "1.0GB",
             "plan_amount": "250"
         },
@@ -384,7 +363,6 @@ The REST API to the project is described below.
             "plan_id": "218",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "2.0GB",
             "plan_amount": "500"
         },
@@ -392,7 +370,6 @@ The REST API to the project is described below.
             "plan_id": "145",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "1.5GB",
             "plan_amount": "990"
         },
@@ -400,7 +377,6 @@ The REST API to the project is described below.
             "plan_id": "219",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "5.0GB",
             "plan_amount": "1300"
         },
@@ -408,7 +384,6 @@ The REST API to the project is described below.
             "plan_id": "147",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "3.0GB",
             "plan_amount": "1600"
         },
@@ -416,7 +391,6 @@ The REST API to the project is described below.
             "plan_id": "148",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "4.5GB",
             "plan_amount": "2100"
         },
@@ -424,7 +398,6 @@ The REST API to the project is described below.
             "plan_id": "229",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "6.0GB",
             "plan_amount": "2500"
         },
@@ -432,7 +405,6 @@ The REST API to the project is described below.
             "plan_id": "233",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "10.0GB",
             "plan_amount": "2800"
         },
@@ -440,7 +412,6 @@ The REST API to the project is described below.
             "plan_id": "163",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "11.0GB",
             "plan_amount": "4000"
         },
@@ -448,7 +419,6 @@ The REST API to the project is described below.
             "plan_id": "231",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "20.0GB",
             "plan_amount": "6000"
         },
@@ -456,7 +426,6 @@ The REST API to the project is described below.
             "plan_id": "165",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "40.0GB",
             "plan_amount": "9650"
         },
@@ -464,11 +433,96 @@ The REST API to the project is described below.
             "plan_id": "230",
             "network": 4,
             "plan_network": "AIRTEL",
-            "month_validate": "Monthly",
             "plan": "110.0GB",
             "plan_amount": "20000"
         }
     
+### 9MOBILE
+
+        {
+            "plan_id": "182",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "500.0MB",
+            "plan_amount": "150"
+        },
+        {
+            "plan_id": "242",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "1.0GB",
+            "plan_amount": "245"
+        },
+        {
+            "plan_id": "183",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "1.5GB",
+            "plan_amount": "300"
+        },
+        {
+            "plan_id": "184",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "2.0GB",
+            "plan_amount": "450"
+        },
+        {
+            "plan_id": "185",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "3.0GB",
+            "plan_amount": "500"
+        },
+        {
+            "plan_id": "186",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "4.5GB",
+            "plan_amount": "650"
+        },
+        {
+            "plan_id": "243",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "5.0GB",
+            "plan_amount": "1240"
+        },
+        {
+            "plan_id": "244",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "10.0GB",
+            "plan_amount": "2450"
+        },
+        {
+            "plan_id": "187",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "11.0GB",
+            "plan_amount": "2600"
+        },
+        {
+            "plan_id": "188",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "15.0GB",
+            "plan_amount": "4500"
+        },
+        {
+            "plan_id": "245",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "20.0GB",
+            "plan_amount": "5950"
+        },
+        {
+            "plan_id": "248",
+            "network": 3,
+            "plan_network": "9MOBILE",
+            "plan": "40.0GB",
+            "plan_amount": "12000"
+        }
 
 ## Airtime Topup
 
