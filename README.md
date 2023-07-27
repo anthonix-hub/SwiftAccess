@@ -362,7 +362,114 @@ The REST API to the project is described below.
         "plan": "115.0GB",
         "plan_amount": "20000"
     }
+
+### Airtel
+    {
+            "plan_id": "216",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "500.0MB",
+            "plan_amount": "150"
+        },
+        {
+            "plan_id": "217",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "1.0GB",
+            "plan_amount": "250"
+        },
+        {
+            "plan_id": "218",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "2.0GB",
+            "plan_amount": "500"
+        },
+        {
+            "plan_id": "145",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "1.5GB",
+            "plan_amount": "990"
+        },
+        {
+            "plan_id": "219",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "5.0GB",
+            "plan_amount": "1300"
+        },
+        {
+            "plan_id": "147",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "3.0GB",
+            "plan_amount": "1600"
+        },
+        {
+            "plan_id": "148",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "4.5GB",
+            "plan_amount": "2100"
+        },
+        {
+            "plan_id": "229",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "6.0GB",
+            "plan_amount": "2500"
+        },
+        {
+            "plan_id": "233",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "10.0GB",
+            "plan_amount": "2800"
+        },
+        {
+            "plan_id": "163",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "11.0GB",
+            "plan_amount": "4000"
+        },
+        {
+            "plan_id": "231",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "20.0GB",
+            "plan_amount": "6000"
+        },
+        {
+            "plan_id": "165",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "40.0GB",
+            "plan_amount": "9650"
+        },
+        {
+            "plan_id": "230",
+            "network": 4,
+            "plan_network": "AIRTEL",
+            "month_validate": "Monthly",
+            "plan": "110.0GB",
+            "plan_amount": "20000"
+        }
     
+
 ## Airtime Topup
 
 ### Request
