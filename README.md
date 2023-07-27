@@ -208,50 +208,40 @@ The REST API to the project is described below.
 
 ### MTN 
     {
-        "id": 213,
-        "dataplan_id": "213",
-        "network": 1,
-        "plan_type": "SME",
+        "plan_id": "213",
+        "network_id": 1,
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "500.0MB",
         "plan_amount": "130"
     },
-    {   
-        "id": 7,
-        "dataplan_id": "7",
-        "network": 1,
-        "plan_type": "SME",
+    {
+        "plan_id": "7",
+        "network_id": 1,
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "1.0GB",
         "plan_amount": "229"
     },
     {
-        "id": 8,
-        "dataplan_id": "8",
-        "network": 1,
-        "plan_type": "SME",
-        "plan_network": "MTN",
+        "plan_id": "8",
+        "network_id": 1,
+         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "2.0GB",
         "plan_amount": "460"
     },
     {
-        "id": 44,
-        "dataplan_id": "44",
-        "network": 1,
-        "plan_type": "SME",
+        "plan_id": "44",
+        "network_id": 1,
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "3.0GB",    
         "plan_amount": "689"
     },
     {
-        "id": 11,
-        "dataplan_id": "11",
-        "network": 1,
-        "plan_type": "SME",
+        "plan_id": "11",
+        "network_id": 1,
         "plan_network": "MTN",
         "month_validate": "Monthly",
         "plan": "5.0GB",
