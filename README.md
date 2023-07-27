@@ -247,7 +247,121 @@ The REST API to the project is described below.
         "plan": "5.0GB",
         "plan_amount": "1150"
     },
- 
+
+### GLO
+
+    {
+        "plan_id": "241",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "500.0MB",
+        "plan_amount": "160"
+    },
+    {
+        "plan_id": "236",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "1.0GB",
+        "plan_amount": "260"
+    },
+    {
+        "plan_id": "237",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "2.0GB",
+        "plan_amount": "500"
+    },
+    {
+        "plan_id": "238",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "3.0GB",
+        "plan_amount": "770"
+    },
+    {
+        "plan_id": "239",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "5.0GB",
+        "plan_amount": "1250"
+    },
+    {
+        "plan_id": "198",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Valid for 30days",
+        "plan": "7.0GB",
+        "plan_amount": "2295"
+    },
+    {
+        "plan_id": "240",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "10.0GB",
+        "plan_amount": "2550"
+    },
+    {
+        "plan_id": "200",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "12.0GB",
+        "plan_amount": "3800"
+    },
+    {
+        "plan_id": "201",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "16.5GB",
+        "plan_amount": "5000"
+    },
+    {
+        "plan_id": "202",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "25.0GB",
+        "plan_amount": "7500"
+    },
+    {
+        "plan_id": "225",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "42.0GB",
+        "plan_amount": "9500"
+    },
+    {
+        "plan_id": "226",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "78.0GB",
+        "plan_amount": "15000"
+    },
+    {
+        "plan_id": "227",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "100.0GB",
+        "plan_amount": "17000"
+    },
+    {
+        "plan_id": "228",
+        "network_id": 2,
+        "plan_network": "GLO",
+        "month_validate": "Monthly",
+        "plan": "115.0GB",
+        "plan_amount": "20000"
+    }
     
 ## Airtime Topup
 
