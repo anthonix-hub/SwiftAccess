@@ -386,28 +386,28 @@ The REST API to the project is described below.
             "network": 4,
             "plan_network": "AIRTEL",
             "plan": "2.0GB",
-            "plan_amount": "500"
+            "plan_amount": "990"
         },
         {
             "plan_id": "145",
             "network": 4,
             "plan_network": "AIRTEL",
             "plan": "1.5GB",
-            "plan_amount": "990"
+            "plan_amount": "500"
         },
         {
             "plan_id": "219",
             "network": 4,
             "plan_network": "AIRTEL",
             "plan": "5.0GB",
-            "plan_amount": "1300"
+            "plan_amount": "1600"
         },
         {
             "plan_id": "147",
             "network": 4,
             "plan_network": "AIRTEL",
             "plan": "3.0GB",
-            "plan_amount": "1600"
+            "plan_amount": "1300"
         },
         {
             "plan_id": "148",
