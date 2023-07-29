@@ -786,107 +786,92 @@ The REST API to the project is described below.
     }
 ### STARTIMES
     {
-        "id": 42,
         "cableplan_id": "42",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Nova - 1 Day",
         "plan_amount": "100"
     },
     {
-        "id": 43,
         "cableplan_id": "43",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Basic - 160 Naira - 1 Day",
         "plan_amount": "200"
     },
     {
-        "id": 44,
         "cableplan_id": "44",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Smart - 1 Day",
         "plan_amount": "250"
     },
     {
-        "id": 37,
         "cableplan_id": "37",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Nova - 1 Week",
         "plan_amount": "300"
     },
     {
-        "id": 45,
         "cableplan_id": "45",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Classic - 1 Day",
         "plan_amount": "320"
     },
     {
-        "id": 46,
         "cableplan_id": "46",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Super - 1 Day",
         "plan_amount": "500"
     },
     {
-        "id": 38,
         "cableplan_id": "38",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Basic - 1 Week",
         "plan_amount": "600"
     },
     {
-        "id": 39,
         "cableplan_id": "39",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Smart - 1 Week",
         "plan_amount": "900"
     },
     {
-        "id": 14,
         "cableplan_id": "14",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Nova - 1 Month",
         "plan_amount": "1200"
     },
     {
-        "id": 40,
         "cableplan_id": "40",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Classic 1 Week",
         "plan_amount": "1200"
     },
     {
-        "id": 41,
         "cableplan_id": "41",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Super - 1 Week",
         "plan_amount": "1800"
     },
     {
-        "id": 12,
         "cableplan_id": "12",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Basic - 1 Month",
         "plan_amount": "2100"
     },
     {
-        "id": 13,
         "cableplan_id": "13",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Smart - 1 Month",
         "plan_amount": "2800"
     },
     {
-        "id": 11,
         "cableplan_id": "11",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Classic - 1 Mont",
         "plan_amount": "3100"
     },
     {
-        "id": 15,
         "cableplan_id": "15",
-        "cable": "STARTIME",
+        "cablename_id": "STARTIME",
         "package": "Super - 1 Month",
         "plan_amount": "5300"
     }
