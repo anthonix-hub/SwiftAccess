@@ -618,5 +618,169 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
-    
+### GOTV
 
+    {
+        "cableplan_id": "34",
+        "cablename_id": "GOTV",
+        "package": "GOtv Smallie - Monthly",
+        "plan_amount": "1100"
+    },
+    {
+        "cableplan_id": "16",
+        "cablename_id": "GOTV",
+        "package": "GOtv Jinja",
+        "plan_amount": "2250"
+    },
+    {
+        "cableplan_id": "18",
+        "cablename_id": "GOTV",
+        "package": "GOtv Smallie",
+        "plan_amount": "2400"
+    },
+    {
+        "cableplan_id": "35",
+        "cablename_id": "GOTV",
+        "package": "GOtv Smallie - Quarterly",
+        "plan_amount": "2400"
+    },
+    {
+        "cableplan_id": "17",
+        "cablename_id": "GOTV",
+        "package": "GOtv Jolli",
+        "plan_amount": "3300"
+    },
+    {
+        "cableplan_id": "2",
+        "cablename_id": "GOTV",
+        "package": "GOtv Max",
+        "plan_amount": "4850"
+    },
+    {
+        "cableplan_id": "47",
+        "cablename_id": "GOTV",
+        "package": "Gotv-supa-6400-monthly",
+        "plan_amount": "6400"
+    },
+    {
+        "cableplan_id": "36",
+        "cablename_id": "GOTV",
+        "package": "GOtv Smallie - Yearly",
+        "plan_amount": "7000"
+    }
+
+### DSTV
+    {
+        "cableplan_id": "21",
+        "cablename_id": "DSTV",
+        "package": "DStv Great Wall Standalone",
+        "plan_amount": "2050"
+    },
+    {
+        "cableplan_id": "20",
+        "cablename_id": "DSTV",
+        "package": "DStv Padi",
+        "plan_amount": "2500"
+    },
+    {
+        "cableplan_id": "33",
+        "cablename_id": "DSTV",
+        "package": "ExtraView Access",
+        "plan_amount": "2900"
+    },
+    {
+        "cableplan_id": "32",
+        "cablename_id": "DSTV",
+        "package": "DStv HDPVR Access Service",
+        "plan_amount": "2900"
+    },
+    {
+        "cableplan_id": "6",
+        "cablename_id": "DSTV",
+        "package": "DStv Yanga",
+        "plan_amount": "3500"
+    },
+    {
+        "cableplan_id": "27",
+        "cablename_id": "DSTV",
+        "package": "DStv Yanga + ExtraView",
+        "plan_amount": "5065"
+    },
+    {
+        "cableplan_id": "28",
+        "cablename_id": "DSTV",
+        "package": "DStv Padi + ExtraView",
+        "plan_amount": "5650"
+    },
+    {
+        "cableplan_id": "19",
+        "cablename_id": "DSTV",
+        "package": "DStv Confam",
+        "plan_amount": "6200"
+    },
+    {
+        "cableplan_id": "23",
+        "cablename_id": "DSTV",
+        "package": "DStv Asia",
+        "plan_amount": "7100"
+    },
+    {
+        "cableplan_id": "26",
+        "cablename_id": "DSTV",
+        "package": "DStv Confam + ExtraView",
+        "plan_amount": "8300"
+    },
+    {
+        "cableplan_id": "29",
+        "cablename_id": "DSTV",
+        "package": "DStv Compact + Extra View",
+        "plan_amount": "10400"
+    },
+    {
+        "cableplan_id": "7",
+        "cablename_id": "DSTV",
+        "package": "DStv Compact",
+        "plan_amount": "10500"
+    },
+    {
+        "cableplan_id": "8",
+        "cablename_id": "DSTV",
+        "package": "DStv Compact Plus",
+        "plan_amount": "16600"
+    },
+    {
+        "cableplan_id": "31",
+        "cablename_id": "DSTV",
+        "package": "DStv Compact Plus - Extra View",
+        "plan_amount": "20000"
+    },
+    {
+        "cableplan_id": "5",
+        "cablename_id": "DSTV",
+        "package": "Asian Bouqet",
+        "plan_amount": "20295"
+    },
+    {
+        "cableplan_id": "25",
+        "cablename_id": "DSTV",
+        "package": "DStv Premium Asia",
+        "plan_amount": "23500"
+    },
+    {
+        "cableplan_id": "30",
+        "cablename_id": "DSTV",
+        "package": "DStv Premium + Extra View",
+        "plan_amount": "23900"
+    },
+    {
+        "cableplan_id": "9",
+        "cablename_id": "DSTV",
+        "package": "DStv Premium",
+        "plan_amount": "24500"
+    },
+    {
+        "cableplan_id": "24",
+        "cablename_id": "DSTV",
+        "package": "DStv Premium French",
+        "plan_amount": "29300"
+    }
