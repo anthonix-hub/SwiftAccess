@@ -187,6 +187,30 @@ The REST API to the project is described below.
       "AccountReference": string
     }
  
+## User Referal
+
+### Request
+
+`GET /user_referalView/Account_reference`
+
+    url: https://www.swiftaccess.online/user_referalView/Account_reference/
+
+### Response
+
+   HTTP 200 OK
+    Allow: GET, HEAD, OPTIONS
+    Content-Type: application/json
+    Vary: Accept
+    
+    {
+        "code": String,
+        "numbers_refered": Integer,
+        "Referal_bonus": Integer,
+        "payment_status": String,
+        "requested_bonus": Integer,
+        "total_withdrawed_bonus": Integer
+    }
+ 
 ## Data Purchase
 
 ### Request
