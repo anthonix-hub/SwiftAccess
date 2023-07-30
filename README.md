@@ -15,11 +15,17 @@ The REST API to the project is described below.
     url: https://www.swiftaccess.online/user/registration/
 
 ### Response
-
-    HTTP/1.1 200 OK
-    Status: 200 OK
+ 
+    HTTP 201 Created
+    Allow: POST
     Content-Type: application/json
-    []
+    Vary: Accept
+    
+    {
+    "key": string
+    }
+
+
 
 ### Body
 
@@ -73,15 +79,23 @@ The REST API to the project is described below.
 
 ### Request
 
-`POST`
+`POST` /user/login/
 
-    url https://www.swiftaccess.online/user/login/
+    url https://www.swiftaccess.online/login/
 
 ### Response
 
-    HTTP/1.1 201 Created
-    Status: 201 Created
+    HTTP 200 OK
+    Allow: POST, OPTIONS
     Content-Type: application/json
+    Vary: Accept
+    
+    {
+        "refresh": string,
+        "access": string
+    }
+
+
     
 ### Body
 
