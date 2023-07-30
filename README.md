@@ -703,55 +703,48 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
+    
 ### GOTV
 
     {
         "cableplan_id": "34",
         "cablename_id": "GOTV",
         "package": "GOtv Smallie - Monthly",
-        "plan_amount": "1100"
     },
     {
         "cableplan_id": "16",
         "cablename_id": "GOTV",
         "package": "GOtv Jinja",
-        "plan_amount": "2250"
     },
     {
         "cableplan_id": "18",
         "cablename_id": "GOTV",
         "package": "GOtv Smallie",
-        "plan_amount": "2400"
     },
     {
         "cableplan_id": "35",
         "cablename_id": "GOTV",
         "package": "GOtv Smallie - Quarterly",
-        "plan_amount": "2400"
     },
     {
         "cableplan_id": "17",
         "cablename_id": "GOTV",
         "package": "GOtv Jolli",
-        "plan_amount": "3300"
     },
     {
         "cableplan_id": "2",
         "cablename_id": "GOTV",
         "package": "GOtv Max",
-        "plan_amount": "4850"
     },
     {
         "cableplan_id": "47",
         "cablename_id": "GOTV",
         "package": "Gotv-supa-6400-monthly",
-        "plan_amount": "6400"
     },
     {
         "cableplan_id": "36",
         "cablename_id": "GOTV",
         "package": "GOtv Smallie - Yearly",
-        "plan_amount": "7000"
     }
 
 ### DSTV
@@ -759,209 +752,255 @@ The REST API to the project is described below.
         "cableplan_id": "21",
         "cablename_id": "DSTV",
         "package": "DStv Great Wall Standalone",
-        "plan_amount": "2050"
     },
     {
         "cableplan_id": "20",
         "cablename_id": "DSTV",
         "package": "DStv Padi",
-        "plan_amount": "2500"
     },
     {
         "cableplan_id": "33",
         "cablename_id": "DSTV",
         "package": "ExtraView Access",
-        "plan_amount": "2900"
     },
     {
         "cableplan_id": "32",
         "cablename_id": "DSTV",
         "package": "DStv HDPVR Access Service",
-        "plan_amount": "2900"
     },
     {
         "cableplan_id": "6",
         "cablename_id": "DSTV",
         "package": "DStv Yanga",
-        "plan_amount": "3500"
     },
     {
         "cableplan_id": "27",
         "cablename_id": "DSTV",
         "package": "DStv Yanga + ExtraView",
-        "plan_amount": "5065"
     },
     {
         "cableplan_id": "28",
         "cablename_id": "DSTV",
         "package": "DStv Padi + ExtraView",
-        "plan_amount": "5650"
     },
     {
         "cableplan_id": "19",
         "cablename_id": "DSTV",
         "package": "DStv Confam",
-        "plan_amount": "6200"
     },
     {
         "cableplan_id": "23",
         "cablename_id": "DSTV",
         "package": "DStv Asia",
-        "plan_amount": "7100"
     },
     {
         "cableplan_id": "26",
         "cablename_id": "DSTV",
         "package": "DStv Confam + ExtraView",
-        "plan_amount": "8300"
     },
     {
         "cableplan_id": "29",
         "cablename_id": "DSTV",
         "package": "DStv Compact + Extra View",
-        "plan_amount": "10400"
     },
     {
         "cableplan_id": "7",
         "cablename_id": "DSTV",
         "package": "DStv Compact",
-        "plan_amount": "10500"
     },
     {
         "cableplan_id": "8",
         "cablename_id": "DSTV",
         "package": "DStv Compact Plus",
-        "plan_amount": "16600"
     },
     {
         "cableplan_id": "31",
         "cablename_id": "DSTV",
         "package": "DStv Compact Plus - Extra View",
-        "plan_amount": "20000"
     },
     {
         "cableplan_id": "5",
         "cablename_id": "DSTV",
         "package": "Asian Bouqet",
-        "plan_amount": "20295"
     },
     {
         "cableplan_id": "25",
         "cablename_id": "DSTV",
         "package": "DStv Premium Asia",
-        "plan_amount": "23500"
     },
     {
         "cableplan_id": "30",
         "cablename_id": "DSTV",
         "package": "DStv Premium + Extra View",
-        "plan_amount": "23900"
     },
     {
         "cableplan_id": "9",
         "cablename_id": "DSTV",
         "package": "DStv Premium",
-        "plan_amount": "24500"
     },
     {
         "cableplan_id": "24",
         "cablename_id": "DSTV",
         "package": "DStv Premium French",
-        "plan_amount": "29300"
     }
 ### STARTIMES
     {
         "cableplan_id": "42",
         "cablename_id": "STARTIME",
         "package": "Nova - 1 Day",
-        "plan_amount": "100"
     },
     {
         "cableplan_id": "43",
         "cablename_id": "STARTIME",
         "package": "Basic - 160 Naira - 1 Day",
-        "plan_amount": "200"
     },
     {
         "cableplan_id": "44",
         "cablename_id": "STARTIME",
         "package": "Smart - 1 Day",
-        "plan_amount": "250"
     },
     {
         "cableplan_id": "37",
         "cablename_id": "STARTIME",
         "package": "Nova - 1 Week",
-        "plan_amount": "300"
     },
     {
         "cableplan_id": "45",
         "cablename_id": "STARTIME",
         "package": "Classic - 1 Day",
-        "plan_amount": "320"
     },
     {
         "cableplan_id": "46",
         "cablename_id": "STARTIME",
         "package": "Super - 1 Day",
-        "plan_amount": "500"
     },
     {
         "cableplan_id": "38",
         "cablename_id": "STARTIME",
         "package": "Basic - 1 Week",
-        "plan_amount": "600"
     },
     {
         "cableplan_id": "39",
         "cablename_id": "STARTIME",
         "package": "Smart - 1 Week",
-        "plan_amount": "900"
     },
     {
         "cableplan_id": "14",
         "cablename_id": "STARTIME",
         "package": "Nova - 1 Month",
-        "plan_amount": "1200"
     },
     {
         "cableplan_id": "40",
         "cablename_id": "STARTIME",
         "package": "Classic 1 Week",
-        "plan_amount": "1200"
     },
     {
         "cableplan_id": "41",
         "cablename_id": "STARTIME",
         "package": "Super - 1 Week",
-        "plan_amount": "1800"
     },
     {
         "cableplan_id": "12",
         "cablename_id": "STARTIME",
         "package": "Basic - 1 Month",
-        "plan_amount": "2100"
     },
     {
         "cableplan_id": "13",
         "cablename_id": "STARTIME",
         "package": "Smart - 1 Month",
-        "plan_amount": "2800"
     },
     {
         "cableplan_id": "11",
         "cablename_id": "STARTIME",
         "package": "Classic - 1 Mont",
-        "plan_amount": "3100"
     },
     {
         "cableplan_id": "15",
         "cablename_id": "STARTIME",
         "package": "Super - 1 Month",
-        "plan_amount": "5300"
     }
 
+## Cable Price List
 
+### Request
+
+`GET/`
+
+    url https://www.swiftaccess.online/cableprice/
+
+### Response
+
+    HTTP 200 OK
+    Allow: GET, HEAD, OPTIONS
+    Content-Type: application/json
+    Vary: Accept
+### Return 
+     {
+        "id": 1,
+        "GOtv_Smallie_Monthly_price": Integer,
+        "GOtv_Jinja_price": Integer,
+        "GOtv_Smallie_price": Integer,
+        "GOtv_Smallie_Quarterly_price": Integer,
+        "GOtv_Jolli_price": Integer,
+        "GOtv_Max_price": Integer,
+        "Gotv_supa_monthly_price": Integer,
+        "GOtv_Smallie_Yearly_price": Integer,
+        "DStv_Great_Wall_Standalone_price": Integer,
+        "DStv_Padi_price": Integer,
+        "ExtraView_Access_price": Integer,
+        "DStv_HDPVR_Access_Service_price": Integer,
+        "DStv_Yanga_price": Integer,
+        "DStv_Yanga_ExtraView_price": Integer,
+        "DStv_Padi_plus_ExtraView_price": Integer,
+        "DStv_Confam_price": Integer,
+        "DStv_Asia_price": Integer,
+        "DStv_Confam_plus_ExtraView_price": Integer,
+        "DStv_Compact_plus_Extra_View_price": Integer,
+        "DStv_Compact_price": Integer,
+        "DStv_Compact_Plus_price": Integer,
+        "DStv_Compact_Plus_Extra_View_price2": Integer,
+        "DStv_Asia_Bouqet_price": Integer,
+        "DStv_Premium_Asia_price": Integer,
+        "DStv_Premium_plus_Extra_View_price": Integer,
+        "DStv_Premium_price": Integer,
+        "DStv_Premium_French_price": Integer,
+        "Nova_1_Day_price": Integer,
+        "Basic_1_Day_price": Integer,
+        "Smart_1_Day_price": Integer,
+        "Nova_1_Week_price": Integer,
+        "Classic_1_Day_price": Integer,
+        "Super_1_Day_price": Integer,
+        "Basic_1_Week_price": Integer,
+        "Smart_1_Week_price": Integer,
+        "Nova_1_Month_price": Integer,
+        "Classic_1_Week_price": Integer,
+        "Super_1_Week_price": Integer,
+        "Basic_1_Month_price": Integer,
+        "Smart_1_Month_price": Integer,
+        "Classic_1_Month_price": Integer,
+        "Super_1_Month_price": Integer
+    }
+### Body
+
+    "smart_card_number": {
+        "type": "string",
+        "required": true,
+        "max_length": 50
+    },
+    "cableplan_id": {
+        "type": "string",
+        "required": true,
+    },
+    "cablename_id": {
+        "type": "string",
+        "required": true,
+    },
+    "transactionReference": {
+        "type": "string",
+        "required": true,
+        "max_length": 36
+    },
+    
 
 
 
