@@ -581,56 +581,6 @@ The REST API to the project is described below.
     }
 
 
-
-### Body
-
-    "username": {
-        "type": "string",
-        "required": true,
-        "max_length": 50
-    },
-    "email": {
-        "type": "email",
-        "required": true,
-    },
-    "password": {
-        "type": "string",
-        "required": true,
-    },
-    "Fullname": {
-        "type": "string",
-        "required": true,
-        "max_length": 50
-    },
-    "phone_number": {
-        "type": "string",
-        "required": true,
-        "max_length": 15
-    },
-    "Address": {
-        "type": "string",
-        "required": true,
-        "max_length": 200
-    },
-    "Account_reference": {
-        "type": "string",
-        "required": true,
-        "max_length": 36
-    },
-    "referer_code": {
-        "type": "string",
-        "required": false,
-        "max_length": 36
-    },
-    "bvn": {
-        "type": "string",
-        "required": true,
-        "read_only": false,
-        "max_length": 11
-    }
-
-
-
 ## Airtime Topup
 
 ### Request
@@ -980,27 +930,6 @@ The REST API to the project is described below.
         "Classic_1_Month_price": Integer,
         "Super_1_Month_price": Integer
     }
-### Body
-
-    "smart_card_number": {
-        "type": "string",
-        "required": true,
-        "max_length": 50
-    },
-    "cableplan_id": {
-        "type": "string",
-        "required": true,
-    },
-    "cablename_id": {
-        "type": "string",
-        "required": true,
-    },
-    "transactionReference": {
-        "type": "string",
-        "required": true,
-        "max_length": 36
-    },
-    
 
 
 
