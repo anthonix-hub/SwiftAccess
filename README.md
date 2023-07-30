@@ -81,7 +81,7 @@ The REST API to the project is described below.
 
 `POST` /user/login/
 
-    url https://www.swiftaccess.online/login/
+    url https://www.swiftaccess.online/user/login/
 
 ### Response
 
