@@ -554,7 +554,7 @@ The REST API to the project is described below.
         "Glo_100GB_price": integer,
         "Glo_115GB_price": integer,
         "Airtel_500MB_price": integer,
-        "Airtel_1GB_price": 2integer50,
+        "Airtel_1GB_price": integer,
         "Airtel_1pt_5GB_price": integer,
         "Airtel_2GB_price": integer,
         "Airtel_3GB_price": integer,
