@@ -513,7 +513,7 @@ The REST API to the project is described below.
             "plan": "40.0GB",
         }
 
-## Data List
+## Data Price List
 
 ### Request
 
