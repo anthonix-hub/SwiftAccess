@@ -84,14 +84,18 @@ The REST API to the project is described below.
 
 ### Response
     HTTP 200 OK
-    Allow: POST, OPTIONS
+    Allow: POST
     Content-Type: application/json
-    Vary: Accept
     
     {
-        "refresh": string,
-        "access": string
-    }
+    "token": String,
+    "user_id": Integer,
+    "Fullname": String,
+    "username": String,
+    "Account_reference": String,
+    "phone_number": String,
+    "email": String
+}
 
 
     
