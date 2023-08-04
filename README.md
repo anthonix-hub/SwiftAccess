@@ -56,11 +56,6 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 200
     },
-    "Account_reference": {
-        "type": "string",
-        "required": true,
-        "max_length": 36
-    },
     "referer_code": {
         "type": "string",
         "required": false,
