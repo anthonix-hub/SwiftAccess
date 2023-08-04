@@ -94,18 +94,21 @@ The REST API to the project is described below.
     "username": String,
     "Account_reference": String,
     "phone_number": String,
-    "email": String
+    "email": String,
+    "Account_balace": Integer,
+    "Account_name": String,
+    "BankName": String,
+    "referal_code": String,
+    "numbers_refered": Integer,
+    "Referal_bonus": Integer,
+    "payment_status": String
+    
 }
 
 
     
 ### Body
 
-    "username": {
-        "type": "string",
-        "required": true,
-        "max_length": 50
-    },
     "email": {
         "type": "email",
         "required": true,
