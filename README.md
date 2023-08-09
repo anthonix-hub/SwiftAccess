@@ -243,7 +243,7 @@ The REST API to the project is described below.
         "type": "string",
         "required": true,
     },
-
+<!--
 ### MTN 
     {
         "plan_id": "213",
@@ -536,7 +536,7 @@ The REST API to the project is described below.
             "plan_network": "9MOBILE",
             "plan": "40.0GB",
         }
-
+-->
 ## Data Price List
 
 ### Request
