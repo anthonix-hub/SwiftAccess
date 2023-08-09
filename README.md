@@ -551,8 +551,275 @@ The REST API to the project is described below.
     Allow: GET, HEAD, OPTIONS
     Content-Type: application/json
     Vary: Accept
-
 ### Return:
+
+    {
+        "MTN": [
+            {
+                "id": 1,
+                "plan_id": 213,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "500.0MB",
+                "price": 130
+            },
+            {
+                "id": 2,
+                "plan_id": 7,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "1.0GB",
+                "price": 229
+            },
+            {
+                "id": 3,
+                "plan_id": 8,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "2.0GB",
+                "price": 460
+            },
+            {
+                "id": 4,
+                "plan_id": 44,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "3.0GB",
+                "price": 689
+            },
+            {
+                "id": 5,
+                "plan_id": 11,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "5.0GB",
+                "price": 1150
+            },
+            {
+                "id": 6,
+                "plan_id": 224,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "10.0GB",
+                "price": 2290
+            },
+            {
+                "id": 7,
+                "plan_id": 222,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "15.0GB",
+                "price": 3865
+            },
+            {
+                "id": 8,
+                "plan_id": 223,
+                "network_id": 1,
+                "plan_network": "MTN",
+                "plan": "20.0GB",
+                "price": 4200
+            }
+        ],
+        "GLO": [
+            {
+                "id": 1,
+                "plan_id": 241,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "500.0MB",
+                "price": 160
+            },
+            {
+                "id": 2,
+                "plan_id": 236,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "1.0GB",
+                "price": 260
+            },
+            {
+                "id": 3,
+                "plan_id": 237,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "2.0GB",
+                "price": 50
+            },
+            {
+                "id": 4,
+                "plan_id": 238,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "3.0GB",
+                "price": 770
+            },
+            {
+                "id": 5,
+                "plan_id": 239,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "5.0GB",
+                "price": 1250
+            },
+            {
+                "id": 6,
+                "plan_id": 198,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "7.0GB",
+                "price": 2295
+            },
+            {
+                "id": 7,
+                "plan_id": 240,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "10.0GB",
+                "price": 2550
+            }
+        ],
+        "Airtel": [
+            {
+                "id": 1,
+                "plan_id": 216,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "500.0MB",
+                "price": 150
+            },
+            {
+                "id": 2,
+                "plan_id": 217,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "1.0GB",
+                "price": 250
+            },
+            {
+                "id": 3,
+                "plan_id": 218,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "2.0GB",
+                "price": 990
+            },
+            {
+                "id": 4,
+                "plan_id": 145,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "1.5GB",
+                "price": 500
+            },
+            {
+                "id": 5,
+                "plan_id": 219,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "5.0GB",
+                "price": 1600
+            },
+            {
+                "id": 6,
+                "plan_id": 147,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "3.0GB",
+                "price": 1300
+            },
+            {
+                "id": 7,
+                "plan_id": 148,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "4.5GB",
+                "price": 2100
+            },
+            {
+                "id": 8,
+                "plan_id": 229,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "6.0GB",
+                "price": 2500
+            }
+        ],
+        "9Mobile": [
+            {
+                "id": 1,
+                "plan_id": 182,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "500.0MB",
+                "price": 150
+            },
+            {
+                "id": 2,
+                "plan_id": 242,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "1.0GB",
+                "price": 245
+            },
+            {
+                "id": 3,
+                "plan_id": 183,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "1.5GB",
+                "price": 300
+            },
+            {
+                "id": 4,
+                "plan_id": 184,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "2.0GB",
+                "price": 450
+            },
+            {
+                "id": 5,
+                "plan_id": 184,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "2.0GB",
+                "price": 450
+            },
+            {
+                "id": 6,
+                "plan_id": 185,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "3.0GB",
+                "price": 500
+            },
+            {
+                "id": 7,
+                "plan_id": 186,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "4.5GB",
+                "price": 650
+            },
+            {
+                "id": 8,
+                "plan_id": 243,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "5.0GB",
+                "price": 1240
+            },
+            {
+                "id": 9,
+                "plan_id": 244,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "10.0GB",
+                "price": 2450
+            }
+        ]
+    }
+<!--
      {
         "id": 1,
         "MTN_500MB_price": integer,
@@ -603,7 +870,7 @@ The REST API to the project is described below.
         "_9Mobile_20GB_price": integer,
         "_9Mobile_40GB_price": integer
     }
-
+-->
 
 ## Airtime Topup
 
