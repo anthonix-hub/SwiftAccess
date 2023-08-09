@@ -676,6 +676,62 @@ The REST API to the project is described below.
                 "plan_network": "GLO",
                 "plan": "10.0GB",
                 "price": 2550
+            },
+            {
+                "id": 8,
+                "plan_id": 200,
+                "network_id": 1,
+                "plan_network": "GLO",
+                "plan": "12.0GB",
+                "price": 3800
+            },
+            {
+                "id": 9,
+                "plan_id": 201,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "16.5GB",
+                "price": 5000
+            },
+            {
+                "id": 10,
+                "plan_id": 202,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "25.0GB",
+                "price": 7500
+            },
+            {
+                "id": 11,
+                "plan_id": 225,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "42.0GB",
+                "price": 9500
+            },
+            {
+                "id": 12,
+                "plan_id": 226,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "78.0GB",
+                "price": 15000
+            },
+            {
+                "id": 13,
+                "plan_id": 227,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "100.0GB",
+                "price": 17000
+            },
+            {
+                "id": 14,
+                "plan_id": 228,
+                "network_id": 2,
+                "plan_network": "GLO",
+                "plan": "115.0GB",
+                "price": 20000
             }
         ],
         "Airtel": [
@@ -742,6 +798,46 @@ The REST API to the project is described below.
                 "plan_network": "AIRTEL",
                 "plan": "6.0GB",
                 "price": 2500
+            },
+            {
+                "id": 9,
+                "plan_id": 233,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "10.0GB",
+                "price": 2800
+            },
+            {
+                "id": 10,
+                "plan_id": 163,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "11.0GB",
+                "price": 4000
+            },
+            {
+                "id": 11,
+                "plan_id": 231,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "20.0GB",
+                "price": 6000
+            },
+            {
+                "id": 12,
+                "plan_id": 165,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "40.0GB",
+                "price": 9650
+            },
+            {
+                "id": 13,
+                "plan_id": 230,
+                "network_id": 4,
+                "plan_network": "AIRTEL",
+                "plan": "110.0GB",
+                "price": 20000
             }
         ],
         "9Mobile": [
@@ -771,14 +867,6 @@ The REST API to the project is described below.
             },
             {
                 "id": 4,
-                "plan_id": 184,
-                "network_id": 3,
-                "plan_network": "9MOBILE",
-                "plan": "2.0GB",
-                "price": 450
-            },
-            {
-                "id": 5,
                 "plan_id": 184,
                 "network_id": 3,
                 "plan_network": "9MOBILE",
@@ -816,6 +904,38 @@ The REST API to the project is described below.
                 "plan_network": "9MOBILE",
                 "plan": "10.0GB",
                 "price": 2450
+            },
+            {
+                "id": 10,
+                "plan_id": 187,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "11.0GB",
+                "price": 2600
+            },
+            {
+                "id": 11,
+                "plan_id": 188,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "15.0GB",
+                "price": 4500
+            },
+            {
+                "id": 12,
+                "plan_id": 245,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "20.0GB",
+                "price": 5950
+            },
+            {
+                "id": 13,
+                "plan_id": 248,
+                "network_id": 3,
+                "plan_network": "9MOBILE",
+                "plan": "40.0GB",
+                "price": 12000
             }
         ]
     }
