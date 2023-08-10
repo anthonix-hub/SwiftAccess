@@ -1065,7 +1065,7 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
-    
+<!--
 ### GOTV
 
     {
@@ -1281,7 +1281,7 @@ The REST API to the project is described below.
         "cablename_id": "STARTIME",
         "package": "Super - 1 Month",
     }
-
+-->
 ## Cable Price List
 
 ### Request
