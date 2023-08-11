@@ -1656,20 +1656,20 @@ The REST API to the project is described below.
    Allow: GET,
    Content-Type: application/json
     
-   {
-        "id": Integer,
-        "id_value": String,
-        "airtime_type": String,
-        "ident": String,
-        "network": String,
-        "paid_amount": Integer,
-        "mobile_number": String,
-        "amount": Integer,
-        "plan_network": String,
-        "Status": String,
-        "create_date": String,
-        "transactionReference": String
-    }
+       {
+            "id": Integer,
+            "id_value": String,
+            "airtime_type": String,
+            "ident": String,
+            "network": String,
+            "paid_amount": Integer,
+            "mobile_number": String,
+            "amount": Integer,
+            "plan_network": String,
+            "Status": String,
+            "create_date": String,
+            "transactionReference": String
+        }
 
 ## Data Purchase History
 
