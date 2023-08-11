@@ -1642,6 +1642,76 @@ The REST API to the project is described below.
         ]
     }
 
+## Airtime Purchase History
 
+### Request
 
+`GET /AirtimeHistory/transactionReference`
+
+    url: https://www.swiftaccess.online/AirtimeHistory/<str:transactionReference>/
+
+### Response
+
+   HTTP 200 OK
+   Allow: GET,
+   Content-Type: application/json
     
+   {
+        "id": Integer,
+        "id_value": String,
+        "airtime_type": String,
+        "ident": String,
+        "network": String,
+        "paid_amount": Integer,
+        "mobile_number": String,
+        "amount": Integer,
+        "plan_network": String,
+        "Status": String,
+        "create_date": String,
+        "transactionReference": String
+    }
+
+## Data Purchase History
+
+### Request
+
+`GET /DataHistory/transactionReference`
+
+    url: https://www.swiftaccess.online/DataHistory/<str:transactionReference>/
+
+### Response
+
+   HTTP 200 OK
+   Allow: GET,
+   Content-Type: application/json
+    
+       {
+            "id": Integer,
+            "network": Integer,
+            "mobile_number": String,
+            "plan": String,
+            "amount": String,
+            "transactionReference": String,
+            "Status": String,
+            "plan_network": String,
+            "create_date": String,
+            "plan_name": String,
+            "ident": String,
+            "id_value": String
+        }
+
+## Cable Purchase History
+
+### Request
+
+`GET /CableHistory/transactionReference`
+
+    url: https://www.swiftaccess.online/CableHistory/<str:transactionReference>/
+
+### Response
+
+   HTTP 200 OK
+   Allow: GET,
+   Content-Type: application/json
+    
+      
