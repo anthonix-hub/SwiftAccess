@@ -91,6 +91,7 @@ The REST API to the project is described below.
     "phone_number": String,
     "email": String,
     "Account_balace": Integer,
+    "Account_number": Integer,
     "Account_name": String,
     "BankName": String,
     "referal_code": String,
