@@ -940,58 +940,6 @@ The REST API to the project is described below.
             }
         ]
     }
-<!--
-     {
-        "id": 1,
-        "MTN_500MB_price": integer,
-        "MTN_1GB_price": integer,
-        "MTN_2GB_price": integer,
-        "MTN_3GB_price": integer,
-        "MTN_5GB_price": integer,
-        "MTN_10GB_price": integer,
-        "MTN_15GB_price": integer,
-        "MTN_20GB_price": integer,
-        "Glo_500MB_price": integer,
-        "Glo_1GB_price": integer,
-        "Glo_2GB_price": integer,
-        "Glo_3GB_price": integer,
-        "Glo_5GB_price": integer,
-        "Glo_7GB_price": integer,
-        "Glo_10GB_price": integer,
-        "Glo_12GB_price": integer,
-        "Glo_16pt_5GB_price": integer,
-        "Glo_25GB_price": integer,
-        "Glo_42GB_price": integer,
-        "Glo_78GB_price": integer,
-        "Glo_100GB_price": integer,
-        "Glo_115GB_price": integer,
-        "Airtel_500MB_price": integer,
-        "Airtel_1GB_price": integer,
-        "Airtel_1pt_5GB_price": integer,
-        "Airtel_2GB_price": integer,
-        "Airtel_3GB_price": integer,
-        "Airtel_5GB_price": integer,
-        "Airtel_4pt_5GB_price": integer,
-        "Airtel_6GB_price": integer,
-        "Airtel_10GB_price": integer,
-        "Airtel_11GB_price": integer,
-        "Airtel_20GB_price": integer,
-        "Airtel_40GB_price": integer,
-        "Airtel_110GB_price": integer,
-        "_9Mobile_500MB_price": integer,
-        "_9Mobile_1GB_price": integer,
-        "_9Mobile_1pt_5GB_price": integer,
-        "_9Mobile_2GB_price": integer,
-        "_9Mobile_3GB_price": integer,
-        "_9Mobile_4pt_5GB_price": integer,
-        "_9Mobile_5GB_price": integer,
-        "_9Mobile_10GB_price": integer,
-        "_9Mobile_11GB_price": integer,
-        "_9Mobile_15GB_price": integer,
-        "_9Mobile_20GB_price": integer,
-        "_9Mobile_40GB_price": integer
-    }
--->
 
 ## Airtime Topup
 
@@ -1015,6 +963,48 @@ The REST API to the project is described below.
         GLO ~ network_id = 2,
         9MOBILE ~ network_id = 3,
         AIRTEL ~ network_id = 4
+        }
+    },
+    "amount": {
+        "type": "string",
+        "required": true,
+    },
+    "transactionReference": {
+        "type": "string",
+        "required": true,
+        "max_length": 36
+    },
+    
+### Response
+    HTTP/1.1 201 
+    Status: 200
+    Content-Type: application/json
+
+## Utility_bill Payment
+
+### Request
+
+`POST/`
+
+    url https://www.swiftaccess.online/Utility_bill/
+    
+### Body
+    "meter_number": {
+        "type": "string",
+        "required": true,
+        "max_length": 50
+    },
+    "disco": {
+        "type": "string",
+        "required": true,
+        "max_length": 50
+    },
+    "MeterType": {
+        "type": "string",
+        "required": true,
+        options{
+        PREPAID: 1,
+        POSTPAID: 2 
         }
     },
     "amount": {
@@ -1065,223 +1055,7 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
-<!--
-### GOTV
 
-    {
-        "cableplan_id": "34",
-        "cablename_id": "GOTV",
-        "package": "GOtv Smallie - Monthly",
-    },
-    {
-        "cableplan_id": "16",
-        "cablename_id": "GOTV",
-        "package": "GOtv Jinja",
-    },
-    {
-        "cableplan_id": "18",
-        "cablename_id": "GOTV",
-        "package": "GOtv Smallie",
-    },
-    {
-        "cableplan_id": "35",
-        "cablename_id": "GOTV",
-        "package": "GOtv Smallie - Quarterly",
-    },
-    {
-        "cableplan_id": "17",
-        "cablename_id": "GOTV",
-        "package": "GOtv Jolli",
-    },
-    {
-        "cableplan_id": "2",
-        "cablename_id": "GOTV",
-        "package": "GOtv Max",
-    },
-    {
-        "cableplan_id": "47",
-        "cablename_id": "GOTV",
-        "package": "Gotv-supa-6400-monthly",
-    },
-    {
-        "cableplan_id": "36",
-        "cablename_id": "GOTV",
-        "package": "GOtv Smallie - Yearly",
-    }
-
-### DSTV
-    {
-        "cableplan_id": "21",
-        "cablename_id": "DSTV",
-        "package": "DStv Great Wall Standalone",
-    },
-    {
-        "cableplan_id": "20",
-        "cablename_id": "DSTV",
-        "package": "DStv Padi",
-    },
-    {
-        "cableplan_id": "33",
-        "cablename_id": "DSTV",
-        "package": "ExtraView Access",
-    },
-    {
-        "cableplan_id": "32",
-        "cablename_id": "DSTV",
-        "package": "DStv HDPVR Access Service",
-    },
-    {
-        "cableplan_id": "6",
-        "cablename_id": "DSTV",
-        "package": "DStv Yanga",
-    },
-    {
-        "cableplan_id": "27",
-        "cablename_id": "DSTV",
-        "package": "DStv Yanga + ExtraView",
-    },
-    {
-        "cableplan_id": "28",
-        "cablename_id": "DSTV",
-        "package": "DStv Padi + ExtraView",
-    },
-    {
-        "cableplan_id": "19",
-        "cablename_id": "DSTV",
-        "package": "DStv Confam",
-    },
-    {
-        "cableplan_id": "23",
-        "cablename_id": "DSTV",
-        "package": "DStv Asia",
-    },
-    {
-        "cableplan_id": "26",
-        "cablename_id": "DSTV",
-        "package": "DStv Confam + ExtraView",
-    },
-    {
-        "cableplan_id": "29",
-        "cablename_id": "DSTV",
-        "package": "DStv Compact + Extra View",
-    },
-    {
-        "cableplan_id": "7",
-        "cablename_id": "DSTV",
-        "package": "DStv Compact",
-    },
-    {
-        "cableplan_id": "8",
-        "cablename_id": "DSTV",
-        "package": "DStv Compact Plus",
-    },
-    {
-        "cableplan_id": "31",
-        "cablename_id": "DSTV",
-        "package": "DStv Compact Plus - Extra View",
-    },
-    {
-        "cableplan_id": "5",
-        "cablename_id": "DSTV",
-        "package": "Asian Bouqet",
-    },
-    {
-        "cableplan_id": "25",
-        "cablename_id": "DSTV",
-        "package": "DStv Premium Asia",
-    },
-    {
-        "cableplan_id": "30",
-        "cablename_id": "DSTV",
-        "package": "DStv Premium + Extra View",
-    },
-    {
-        "cableplan_id": "9",
-        "cablename_id": "DSTV",
-        "package": "DStv Premium",
-    },
-    {
-        "cableplan_id": "24",
-        "cablename_id": "DSTV",
-        "package": "DStv Premium French",
-    }
-### STARTIMES
-    {
-        "cableplan_id": "42",
-        "cablename_id": "STARTIME",
-        "package": "Nova - 1 Day",
-    },
-    {
-        "cableplan_id": "43",
-        "cablename_id": "STARTIME",
-        "package": "Basic - 160 Naira - 1 Day",
-    },
-    {
-        "cableplan_id": "44",
-        "cablename_id": "STARTIME",
-        "package": "Smart - 1 Day",
-    },
-    {
-        "cableplan_id": "37",
-        "cablename_id": "STARTIME",
-        "package": "Nova - 1 Week",
-    },
-    {
-        "cableplan_id": "45",
-        "cablename_id": "STARTIME",
-        "package": "Classic - 1 Day",
-    },
-    {
-        "cableplan_id": "46",
-        "cablename_id": "STARTIME",
-        "package": "Super - 1 Day",
-    },
-    {
-        "cableplan_id": "38",
-        "cablename_id": "STARTIME",
-        "package": "Basic - 1 Week",
-    },
-    {
-        "cableplan_id": "39",
-        "cablename_id": "STARTIME",
-        "package": "Smart - 1 Week",
-    },
-    {
-        "cableplan_id": "14",
-        "cablename_id": "STARTIME",
-        "package": "Nova - 1 Month",
-    },
-    {
-        "cableplan_id": "40",
-        "cablename_id": "STARTIME",
-        "package": "Classic 1 Week",
-    },
-    {
-        "cableplan_id": "41",
-        "cablename_id": "STARTIME",
-        "package": "Super - 1 Week",
-    },
-    {
-        "cableplan_id": "12",
-        "cablename_id": "STARTIME",
-        "package": "Basic - 1 Month",
-    },
-    {
-        "cableplan_id": "13",
-        "cablename_id": "STARTIME",
-        "package": "Smart - 1 Month",
-    },
-    {
-        "cableplan_id": "11",
-        "cablename_id": "STARTIME",
-        "package": "Classic - 1 Mont",
-    },
-    {
-        "cableplan_id": "15",
-        "cablename_id": "STARTIME",
-        "package": "Super - 1 Month",
-    }
--->
 ## Cable Price List
 
 ### Request
