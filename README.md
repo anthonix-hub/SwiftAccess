@@ -20,9 +20,9 @@ The REST API to the project is described below.
     Content-Type: application/json
     Vary: Accept
     
-    {
-    "key": string
-    }
+        {
+        "detail": "Verification e-mail sent."
+        }
 
 
 
