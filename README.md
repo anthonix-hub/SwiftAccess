@@ -1018,6 +1018,20 @@ The REST API to the project is described below.
         "max_length": 36
     },
     
+### Disco names
+    1 	Ikeja Electric
+    2 	Eko Electric
+    3 	Abuja Electric
+    4 	Kano Electric
+    5 	Enugu Electric
+    6 	Port Harcourt Electric
+    7 	Ibadan Electric
+    8 	Kaduna Electric
+    9 	Jos Electric
+    10 	Benin Electric
+    11 	Yola Electric
+
+
 ### Response
     HTTP/1.1 201 
     Status: 200
@@ -1056,18 +1070,6 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
-### Disco names
-    1 	Ikeja Electric
-    2 	Eko Electric
-    3 	Abuja Electric
-    4 	Kano Electric
-    5 	Enugu Electric
-    6 	Port Harcourt Electric
-    7 	Ibadan Electric
-    8 	Kaduna Electric
-    9 	Jos Electric
-    10 	Benin Electric
-    11 	Yola Electric
 
 ## Cable Price List
 
