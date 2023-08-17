@@ -1502,5 +1502,35 @@ The REST API to the project is described below.
    HTTP 200 OK
    Allow: GET,
    Content-Type: application/json
+
+    {
+        "id": Integer, 
+        "ident": String, 
+        "cablename": Integer, 
+        "cableplan": Integer, 
+        "package": String, 
+        "plan_amount": String, 
+        "paid_amount": Integer, 
+        "balance_before": String, 
+        "balance_after": String, 
+        "smart_card_number": String, 
+        "Status":String, 
+        "create_date": String, 
+        "customer_name": String
+    }
+      
+## Electric Bill History
+
+### Request
+
+`GET /Electric_billHistory/transactionReference`
+
+    url: https://www.swiftaccess.online/Electric_billHistory/<str:transactionReference>/
+
+### Response
+
+   HTTP 200 OK
+   Allow: GET,
+   Content-Type: application/json
     
       
