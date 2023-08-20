@@ -90,6 +90,7 @@ The REST API to the project is described below.
     "Account_reference": String,
     "phone_number": String,
     "email": String,
+    "email_verified": String,
     "Account_balace": Integer,
     "Account_number": Integer,
     "Account_name": String,
