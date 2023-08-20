@@ -213,6 +213,27 @@ The REST API to the project is described below.
         "total_withdrawed_bonus": Integer
     }
  
+ 
+## Referal Bonus Request
+
+### Request
+
+`POST /request_RefBonus/`
+
+    url: https://www.swiftaccess.online/user_referalView/
+
+### Response
+
+   HTTP 200 OK
+    Allow: POST
+    Content-Type: application/json
+    Vary: Accept
+    
+    {
+        "payment_mode_requested": bank_account| swift_account,
+        "transactionReference": String,
+    }
+ 
 ## Data Purchase
 
 ### Request
