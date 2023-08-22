@@ -144,13 +144,13 @@ The REST API to the project is described below.
         "required": true,
     },
     
-## Password Reset
+## Forget Password
 
 ### Request
 
-`POST password/change/`
+`POST user/forgot-password/`
 
-    url: https://www.swiftaccess.online/account/password/reset/
+    url: https://www.swiftaccess.online/user/forgot-password/
     
 ### Response
 
