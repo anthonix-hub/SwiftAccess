@@ -99,8 +99,9 @@ The REST API to the project is described below.
     "numbers_refered": Integer,
     "Referal_bonus": Integer,
     "payment_status": String,
-    "amount_per_referer": String
-    
+    "amount_per_referer": String,
+    "last_login": String,
+    "date_joined": String
 }
 
 
