@@ -96,6 +96,7 @@ The REST API to the project is described below.
     "Account_name": String,
     "BankName": String,
     "referal_code": String,
+    "bonus_requested": True|False,
     "numbers_refered": Integer,
     "Referal_bonus": Integer,
     "payment_status": String,
