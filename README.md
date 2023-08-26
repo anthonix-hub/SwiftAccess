@@ -222,7 +222,7 @@ The REST API to the project is described below.
 
 `POST /request_RefBonus/`
 
-    url: https://www.swiftaccess.online/user_referalView/
+    url: https://www.swiftaccess.online/request_RefBonus/
 
 ### Response
 
