@@ -234,6 +234,8 @@ The REST API to the project is described below.
     
     {
         "payment_mode_requested": bank_account| swift_account,
+        "accountNumber": Interger| null,
+        "Bank": String| null,
         "transactionReference": String,
     }
  
