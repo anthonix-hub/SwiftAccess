@@ -1097,7 +1097,34 @@ The REST API to the project is described below.
         "required": true,
         "max_length": 36
     },
+    
+## Cable IUC Validation
 
+### Request
+
+`GET/`
+
+    url https://myrechargeup.com/api/validateiuc?smart_card_number=iuc&cablename=id
+
+### Response
+
+    Status: 200 OK
+    Content-Type: application/json
+    
+### Example: https://myrechargeup.com/api/validateiuc?smart_card_number=4613561372&cablename=GOTV
+
+### Query Params
+
+    "smart_card_number": {
+        "type": "string",
+        "required": true,
+        "max_length": 50
+    },
+    "cablename": {
+        "type": "string",
+        "required": true,
+    },
+    
 ## Cable Price List
 
 ### Request
