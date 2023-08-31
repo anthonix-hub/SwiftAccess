@@ -1117,7 +1117,7 @@ The REST API to the project is described below.
 ### Query Params
 
     "smart_card_number": {
-        "type": "string",
+        "type": "Integer",
         "required": true,
         "max_length": 50
     },
