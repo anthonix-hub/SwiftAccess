@@ -1112,6 +1112,7 @@ The REST API to the project is described below.
     Content-Type: application/json
     
 ### Example: https://myrechargeup.com/api/validateiuc?smart_card_number=4613561372&cablename=GOTV
+### https://myrechargeup.com/api/validateiuc?smart_card_number=02110473994&cablename=STARTIMES
 
 ### Query Params
 
