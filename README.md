@@ -1113,7 +1113,7 @@ The REST API to the project is described below.
     
 'Example' 
     https://myrechargeup.com/api/validateiuc?smart_card_number=4613561372&cablename=GOTV
-    
+'Example'
     https://myrechargeup.com/api/validateiuc?smart_card_number=02110473994&cablename=STARTIMES
 
 ### Query Params
