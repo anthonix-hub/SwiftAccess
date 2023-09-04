@@ -168,6 +168,31 @@ The REST API to the project is described below.
         "required": true,
     },   
     
+## Forget Password Confirm
+
+### Request
+
+`POST user/forgot-password/confirm/`
+
+    url: https://www.swiftaccess.online/user/forgot-password/confirm/
+    
+### Response
+
+   HTTP 200 OK
+   Allow: POST
+   Content-Type: application/json
+    
+### Body
+
+    "email": {
+        "type": "email",
+        "required": true,
+    },   
+    "token": {
+        "type": "string",
+        "required": true,
+    },   
+    
 ## User Profile
 
 ### Request
