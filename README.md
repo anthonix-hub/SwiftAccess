@@ -118,13 +118,35 @@ The REST API to the project is described below.
         "required": true,
     },
     
-## Password Change
+## Password Change request
 
 ### Request
 
 `POST password/change/`
 
     url: https://www.swiftaccess.online/account/password/change/
+### Response
+
+   HTTP 200 OK
+   Allow: POST
+   Content-Type: application/json
+   Vary: Accept
+    
+### Body
+
+    "email": {
+        "type": "email",
+        "required": true,
+    },
+    
+    
+## Password Change request
+
+### Request
+
+`POST password-reset/change/`
+
+    url: https://www.swiftaccess.online/account/password-reset/change/
 ### Response
 
    HTTP 200 OK
