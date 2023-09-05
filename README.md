@@ -184,8 +184,8 @@ The REST API to the project is described below.
     
 ### Body
 
-    "email": {
-        "type": "email",
+    "password": {
+        "type": "string",
         "required": true,
     },   
     "token": {
