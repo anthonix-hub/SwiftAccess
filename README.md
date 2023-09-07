@@ -194,9 +194,9 @@ The REST API to the project is described below.
 
 ### Request
 
-`POST reset-password/validate-token`
+`POST user/forgot-password/validate-token`
 
-    url: https://www.swiftaccess.online/reset-password/validate-token/
+    url: https://www.swiftaccess.online/user/forgot-password/validate-token/
     
 ### Response
 
