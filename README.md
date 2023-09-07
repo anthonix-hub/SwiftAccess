@@ -211,8 +211,9 @@ The REST API to the project is described below.
         "required": true,
     },   
     "token": {
-        "type": "string",
+        "type": "Integer",
         "required": true,
+        "lenght": 6,
     },   
     
 ## User Profile
