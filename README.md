@@ -190,6 +190,27 @@ The REST API to the project is described below.
         "required": true,
     },   
     
+## Forget Password Token Validator
+
+### Request
+
+`POST reset-password/validate-token`
+
+    url: https://www.swiftaccess.online/reset-password/validate-token/
+    
+### Response
+
+   HTTP 200 OK
+   Allow: POST
+   Content-Type: application/json
+    
+### Body
+
+    "token": {
+        "type": "Intetger",
+        "required": true,
+    },   
+    
 ## Forget Password Confirm
 
 ### Request
