@@ -169,7 +169,7 @@ The REST API to the project is described below.
         "required": true,
     },
     
-## Forget Password
+## Forget Password Request
 
 ### Request
 
