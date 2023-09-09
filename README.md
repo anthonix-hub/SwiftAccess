@@ -104,8 +104,6 @@ The REST API to the project is described below.
     "last_login": String,
     "date_joined": String
 }
-
-
     
 ### Body
 
@@ -115,6 +113,31 @@ The REST API to the project is described below.
     },
     "password": {
         "type": "string",
+        "required": true,
+    },
+    
+## Account Deletion
+
+### Request
+
+`POST user/account_deletion/`
+
+    url: https://www.swiftaccess.online/user/account_deletion/
+### Response
+
+   HTTP 200 OK
+   Allow: POST
+   Content-Type: application/json
+   Vary: Accept
+    
+### Body
+
+    "password": {
+        "type": "password",
+        "required": true,
+    },
+    "account_reference": {
+        "type": "String",
         "required": true,
     },
     
